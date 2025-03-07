@@ -1,0 +1,8 @@
+region                  = "ap-south-1"
+ami_id                  = "ami-0522ab6e1ddcc7055"
+instance_type           = "t2.micro"
+existing_security_group = "sg-0c84402213547a164"
+vpc_existing_id         = "vpc-0e5232ada44ab81e6"
+secret_id               = ""
+access_id               = ""
+existing_key_name       = "my-key-pair"
