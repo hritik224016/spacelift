@@ -1,6 +1,6 @@
 variable "instance_name" {
   type = string
-  default = "terraform-demo"
+  default = ""
 }
 
 variable "secret_id" {
@@ -13,7 +13,7 @@ variable "access_id" {
 }
 variable "ami_id" {
   type = string
-  default = "ami-0522ab6e1ddcc7055"
+  default = ""
 }
 
 variable "instance_type" {
@@ -23,10 +23,14 @@ variable "instance_type" {
 
 variable "aws_keypair" {
   type = string
-  default = "my-key-pair"
+  default = ""
 }
 
 variable "region" {
   type = string
-  default = "ap-south-1"
+  default = ""
+}
+variable "vpc_existing_id" {
+  type = string
+  default = ""
 }
