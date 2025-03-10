@@ -34,7 +34,8 @@ variable "vpc_existing_id" {
   type = string
   default = ""
 }
-var "vpc_security_group_ids" {
-  type = string
-  default = ""
+
+variable "security_group_ids" {
+  type = set(string)
+  default = []
 }
